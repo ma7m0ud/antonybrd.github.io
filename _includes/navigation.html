@@ -3,7 +3,8 @@
     <!-- Home link -->
     <li class="menu-item">
       <a href="{{ '/' | relative_url }}" itemprop="url">
-        <span itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
+        <img src="/assets/img/round_me.png" width="70">
+        <span STYLE="font-size: 32pt" itemprop="name">{{ site.data.theme.t.home | default: 'Home' }}</span>
       </a>
     </li>
 
@@ -16,7 +17,7 @@
       {% if my_page.title %}
         <li class="menu-item">
           <a href="{{ my_page.url | relative_url }}" itemprop="url">
-            <span STYLE="font-size: 14pt" itemprop="name">{{ my_page.title | escape }}</span>
+            <span itemprop="name">{{ my_page.title | escape }}</span>
           </a>
         </li>
       {% endif %}

@@ -8,10 +8,10 @@ t:
   skip_content: "Skip to content"
   skip_footer: "Skip to footer"
   menu: "Menu"
-  home: "Home"
+  home: "Antony"
   newer: "Newer"
   older: "Older"
-  email: "Email"
+  email: "Email Me"
   subscribe: "Subscribe"
   read_more: "Read More"
   posts: "Posts"
@@ -30,5 +30,5 @@ google_fonts:
 # pages that have a `title`. Add raw page paths in the order you'd like.
 
 navigation_pages:
-  - about.md
+  - blog.md
   - cv.md

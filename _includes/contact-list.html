@@ -1,4 +1,5 @@
 <ul class="contact-list">
+
   {% if site.email %}
     <li>
       <a href="mailto:{{ site.email }}">
@@ -6,6 +7,10 @@
         <span class="label">{{ site.data.theme.t.email | default: 'Email' }}</span>
       </a>
     </li>
+  {% endif %}
+
+  {% if site.linkedin_username %}
+    <li>{% include icon-linkedin.html username=site.linkedin_username label='LinkedIn' %}</li>
   {% endif %}
 
   {% if site.github_username %}
@@ -16,12 +21,5 @@
     <li>{% include icon-twitter.html username=site.twitter_username label='Twitter' %}</li>
   {% endif %}
 
-  <li>
-    {% if site.plugins contains 'jekyll-feed' %}
-      <a href="{{ site.feed.path | default: 'feed.xml' | relative_url }}" title="Atom Feed">
-        <span class="icon icon--rss">{% include icon-rss.svg %}</span>
-        <span class="label">{{ site.data.theme.t.subscribe | default: 'Subscribe' }}</span>
-      </a>
-    {% endif %}
-  </li>
+
 </ul>

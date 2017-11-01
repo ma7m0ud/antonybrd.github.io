@@ -1,7 +1,8 @@
 <header class="intro">
   <div class="inner">
     <div class="intro-text">
-      <h1 class="intro-title">{{ cv.basics.name | default: page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
+
+      <h1 class="intro-title"> <img src="/assets/img/round_me.png" width="100"> {{ cv.basics.name | default: page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
       {% if cv.basics.label %}
         <p class="intro-subtitle">{{ cv.basics.label | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endif %}

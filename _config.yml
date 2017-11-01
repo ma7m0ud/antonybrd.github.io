@@ -14,17 +14,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: AB
+title: Antony's Website
 email: antony.bernadou@gmail.com
-description: Personal blogging webstite
+description: Antony's Personal blogging website
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://antonybrd.github.io"
 author:
   name: Antony Bernadou
   twitter: antonybernadou
-  picture: "/assets/img/fun_profile.png"
+  picture: "assets/img/fun_profile.png"
 twitter_username: antonybernadou
 github_username: AntonyBrd
+linkedin_username: antonybernadou
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 
 # Build settings
@@ -35,8 +36,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-feed:
-  path: atom.xml
+
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 3

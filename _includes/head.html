@@ -26,10 +26,4 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={% for font in site.data.theme.google_fonts %}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{% endfor %}">
   {% endif %}
 
-  {% if site.gems contains 'jekyll-feed' %}
-    {% comment %}
-      Add Atom feed link if jekyll-feed plugin is enabled
-    {% endcomment %}
-    {% include head-feed.html %}
-  {% endif %}
 </head>
