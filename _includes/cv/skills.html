@@ -11,8 +11,15 @@
             <h4 class="title">{{ s.name }}</h4>
           {% endif %}
           {% if s.keywords %}
-            <span class="keywords">{{ s.keywords | array_to_sentence_string }}</span>
+            <ul>
+            {% for key in s.keywords %}
+              <li>{{ key }}</li>
+            {% endfor %}
+            </ul>
           {% endif %}
+           <ul class="courses">
+
+          </ul>
         </div>
       {% endfor %}
     </div>

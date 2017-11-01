@@ -3,16 +3,15 @@
     "name": "Antony Bernadou",
     "label": "Data Science / Big Data consultant",
     "picture": "",
-    "email": "dugan.hash@mailinator.com",
-    "phone": "(555) 555-5555",
-    "website": "https://towlettepettetuc.ci",
-    "summary": "Nash is well versed in the Montoyan / Artesian Connection, preparation of grasshopper mash, and baking of grover loaves.",
+    "email": "antony.bernadou@gmail.com",
+    "phone": "+61 (0) 490 344 83",
+    "summary": "Data Enthusiast, creating value from your data.",
     "location": {
-      "address": "123 Sesame Street",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "159 Cathedral Street",
+      "postalCode": "2011",
+      "city": "Sydney",
+      "countryCode": "AUS",
+      "region": "NSW"
     },
     "profiles": [
       {
@@ -29,58 +28,42 @@
   },
   "work": [
     {
-      "company": "The Whip",
-      "position": "CEO/President",
-      "website": "https://thewh.ip",
-      "startDate": "2013-12-01",
+      "company": "Sogeti",
+      "position": "Consultant",
+      "website": "https://www.sogeti.com/solutions/bi-and-analytics/big-data/",
+      "startDate": "2015-10-01",
       "endDate": "",
-      "summary": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+      "summary": "Leverage Data Analytics technologies to provide business value.",
       "highlights": [
-        "Concealed nipper in embrodiery.",
-        "Dealt with Elastical Gomez on a daily basis."
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "INSA Toulouse - National Institute of Applied Sciences",
-      "area": "Mathematics - Financial Engineer",
-      "studyType": "Master degree",
-      "startDate": "2010-09-01",
-      "endDate": "2015-09-01",
-      "courses": [
-        "Statistical Learning",
-        "Stochastic Processes"
+        "Building a Data Lab to carry our clients through the current digital shift, and show them how to take full advantage of their data",
+        "Speaker : Why Big Data teams need collaborative and agile frameworks ?"
       ]
     }
   ],
   "skills": [
     {
-      "name": "Audio Juggling",
-      "level": "Master",
+      "name": "Big Data",
       "keywords": [
-        "Ointment",
-        "Voltor",
-        "Millipedes"
+        "Hadoop Ecosystem (Hortonworks, Cloudera)",
+        "Spark (Core, SQL, ML)",
+        "Key Value storage (Hbase)"
       ]
     },
     {
-      "name": "Bruschotti",
-      "level": "Satisfactory",
+      "name": "Programing",
       "keywords": [
-        "Snow camp",
-        "Owl"
+        "Python",
+        "Java",
+        "R",
+        "SAS"
       ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "French",
-      "fluency": "Native speaker"
     },
     {
-      "language": "English",
-      "fluency": "Professional speaker"
+      "name": "Machine Learning",
+      "keywords": [
+        "Supervised/Unsupervised Learning mainly with Scikit Learn",
+        "Deep Learning with Tensorflow"
+      ]
     }
   ]
 }
