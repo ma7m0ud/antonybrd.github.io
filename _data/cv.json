@@ -1,0 +1,86 @@
+{
+  "basics": {
+    "name": "Antony Bernadou",
+    "label": "Data Science / Big Data consultant",
+    "picture": "",
+    "email": "dugan.hash@mailinator.com",
+    "phone": "(555) 555-5555",
+    "website": "https://towlettepettetuc.ci",
+    "summary": "Nash is well versed in the Montoyan / Artesian Connection, preparation of grasshopper mash, and baking of grover loaves.",
+    "location": {
+      "address": "123 Sesame Street",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "antonybernadou",
+        "url": "https://twitter.com/antonybernadou"
+      },
+      {
+        "network": "LikedIn",
+        "username": "Antony Bernaedou",
+        "url": "https://www.linkedin.com/in/antonybernadou/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "The Whip",
+      "position": "CEO/President",
+      "website": "https://thewh.ip",
+      "startDate": "2013-12-01",
+      "endDate": "",
+      "summary": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+      "highlights": [
+        "Concealed nipper in embrodiery.",
+        "Dealt with Elastical Gomez on a daily basis."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "INSA Toulouse - National Institute of Applied Sciences",
+      "area": "Mathematics - Financial Engineer",
+      "studyType": "Master degree",
+      "startDate": "2010-09-01",
+      "endDate": "2015-09-01",
+      "courses": [
+        "Statistical Learning",
+        "Stochastic Processes"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Audio Juggling",
+      "level": "Master",
+      "keywords": [
+        "Ointment",
+        "Voltor",
+        "Millipedes"
+      ]
+    },
+    {
+      "name": "Bruschotti",
+      "level": "Satisfactory",
+      "keywords": [
+        "Snow camp",
+        "Owl"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional speaker"
+    }
+  ]
+}
