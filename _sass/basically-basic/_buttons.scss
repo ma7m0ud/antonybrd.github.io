@@ -4,7 +4,7 @@
 
 .btn {
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 0.2em 0.3em;
   border: 0;
   border-radius: $border-radius;
   background-color: $accent-color;
@@ -15,8 +15,8 @@
   cursor: pointer;
 
   &:hover {
-    background-color: tint($accent-color, 20%);
-    color: #fff;
+    background-color: tint($accent-color, 60%);
+    color: #000;
   }
 
   &:focus {
@@ -24,7 +24,7 @@
   }
 
   .icon {
-    margin-right: 0.5em;
+    margin-right: 0.65em;
   }
 
   /* block button fills width of parent container */
@@ -37,3 +37,27 @@
     }
   }
 }
+
+.tag {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  border: 0;
+  border-radius: $border-radius;
+  background-color: $accent-color;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+
+  /* block button fills width of parent container */
+  &--block {
+    display: block;
+    width: 100%;
+
+    + .btn--block {
+      margin-top: 1rem;
+    }
+  }
+}
+

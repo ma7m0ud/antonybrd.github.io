@@ -28,6 +28,14 @@ github_username: AntonyBrd
 linkedin_username: antonybernadou
 logo: # path of site logo, e.g. "/assets/images/logo.png"
 
+# Navigation (2nd level links supported)
+nav:
+  Home:
+    - '/'
+  Blog:
+    - '/blog/'
+    - { Tags: '/blog/tags/' }
+
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-basically-basic
@@ -75,3 +83,4 @@ defaults:
     values:
       layout: post
       read_time: true
+      tags: tags
