@@ -1,5 +1,5 @@
 ---
 title: "Blog"
 layout: bloghome
-image: "assets/img/bloh_home.png"
+image: "assets/img/blog_home.png"
 ---
