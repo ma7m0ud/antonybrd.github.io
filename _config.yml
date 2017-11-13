@@ -21,6 +21,7 @@ baseurl: # the optional subpath of your site, e.g. "/blog"
 url: "https://antonybrd.github.io"
 author:
   name: Antony Bernadou
+  email: antony.bernadou@gmail.com
   twitter: antonybernadou
   picture: "assets/img/fun_profile.png"
 twitter_username: antonybernadou
