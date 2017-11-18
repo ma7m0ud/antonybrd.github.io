@@ -1,6 +1,6 @@
 ---
 title: "Property-based testing in Python"
-image: "/assets/img/opening/opera.png"
+image: "/assets/img/events/prop-based.jpg"
 tags:
   - Testing
   - Python

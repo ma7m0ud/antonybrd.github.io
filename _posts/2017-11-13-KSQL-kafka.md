@@ -1,6 +1,6 @@
 ---
 title: "About Apache Kafka @ Simple Machine"
-image: "/assets/img/opening/opera.png"
+image: "/assets/img/events/blog_kafka.png"
 tags:
   - Event
   - Kafka
